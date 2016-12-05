@@ -8,6 +8,8 @@ var score=0;
 var luck=1;
 var position = "Central Room";
 var worldsize=3;
+var one = ["","","״ ,"אבר אבס אבן אבל אבה אבד אבב ", "Apple", "Mango"];
+var two =[];
 
  
 
