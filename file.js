@@ -11,35 +11,21 @@ var worldsize=23;
 var one = ["","","״ ,"אבר אבס אבן אבל אבה אבד אבב];
 var two =["",""];
 
- 
+ function myposition(){document.getElementById("demo").innerHTML =
+                      "Height: " + up + "   Side: " + side + "<br>" + "Location: " + position + "<br>" + "Score: " + score;}
+
+
 
 function myFunction01() {
-if (up > worldsize){
-return;
-}
-
-else {
-        up = up + 1;}
-
-function myposition(){
-        document.getElementById("demo").innerHTML =
-        "Height: " + up + "   Side: " + side + "<br>" + "Location: " + position + "<br>" + "Score: " + score;}
+if (up > worldsize){return;}else {up = up + 1;}}
 
 
  
 
-function myFunction02() {
-if (side > worldsize){
-return;
-}
+function myFunction02() {if (side > worldsize){return;}
+else{side = side + 1;}}
 
-else{
-        side = side + 1;
 
-myposition();
-        document.getElementById("demo").innerHTML =
-        "Height: " + up + "   Side: " + side + "<br>" + "Location: " + position + "<br>" + "Score: " + score;
-}
 
 
 function myFunction03() {
