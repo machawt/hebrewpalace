@@ -1,78 +1,73 @@
 
-var north=0;
-var south=0;
-var west=0;
-var east=0;
-var troll=0;
+var up=0;
+
+var side=0;
+
+
 var score=0;
-var luck=1;
+
 var position = "Central Room";
-var worldsize=3;
+var worldsize=23;
 var one = ["","","״ ,"אבר אבס אבן אבל אבה אבד אבב ", "Apple", "Mango"];
 var two =["",""];
 
  
 
 function myFunction01() {
-if (north > worldsize){
+if (up > worldsize){
 return;
 }
-if (south < 1) {
-        north = north + 1;
-}else {
-        south = south - 1;
+
+else {
+        up = up + 1;
 }
 myposition();
         document.getElementById("demo").innerHTML =
-        "North: " + north +"   South: " + south+"   East: " + east + "   West: " + west + "<br>" + "Location: " + position + "<br>" + "Score: " + score;
+        "Height: " + up + "   Side: " + side + "<br>" + "Location: " + position + "<br>" + "Score: " + score;
 }
 
  
 
 function myFunction02() {
-if (west > worldsize){
+if (side > worldsize){
 return;
 }
-if (east < 1) {
-        west = west + 1;
-}else{
-        east = east - 1;
+
+else{
+        side = side + 1;
 }
 myposition();
         document.getElementById("demo").innerHTML =
-        "North: " + north +"   South: " + south+"   East: " + east + "   West: " + west + "<br>" + "Location: " + position + "<br>" + "Score: " + score;
+        "Height: " + up + "   Side: " + side + "<br>" + "Location: " + position + "<br>" + "Score: " + score;
 }
+
 
 function myFunction03() {
 
-if (east > worldsize){
+if (side > worldsize){
 return;
-}
-if (west < 1) {
-        east = east + 1;
-}else{
-        west = west - 1;
+else{
+        side = side - 1;
 }
 myposition();
         document.getElementById("demo").innerHTML =
-        "North: " + north +"   South: " + south+"   East: " + east + "   West: " + west + "<br>" + "Location: " + position + "<br>" + "Score: " + score;
+         "Height: " + up + "   Side: " + side + "<br>" + "Location: " + position + "<br>" + "Score: " + score;
 }
+
 
  
 
 function myFunction04() {
-if (south > worldsize){
+if (height > worldsize){
 return;
-}
-if (north > 0) {
-        north = north - 1;
-}else{
-south = south + 1;
+else{
+height = height - 1;
 }
 myposition();
         document.getElementById("demo").innerHTML =
-        "North: " + north +"   South: " + south+"   East: " + east + "   West: " + west + "<br>" + "Location: " + position + "<br>" + "Score: " + score;
+         "Height: " + up + "   Side: " + side + "<br>" + "Location: " + position + "<br>" + "Score: " + score;
 }
+
 
 
 function myposition() {
