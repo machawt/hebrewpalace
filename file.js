@@ -8,7 +8,7 @@ var score=0;
 
 var position = "Central Room";
 var worldsize=23;
-var one = ["","","״ ,"אבר אבס אבן אבל אבה אבד אבב ", "Apple", "Mango"];
+var one = ["","","״ ,"אבר אבס אבן אבל אבה אבד אבב];
 var two =["",""];
 
  
