@@ -19,12 +19,12 @@ return;
 }
 
 else {
-        up = up + 1;
+        up = up + 1;}
 
-myposition();
+function myposition(){
         document.getElementById("demo").innerHTML =
-        "Height: " + up + "   Side: " + side + "<br>" + "Location: " + position + "<br>" + "Score: " + score;
-}
+        "Height: " + up + "   Side: " + side + "<br>" + "Location: " + position + "<br>" + "Score: " + score;}
+
 
  
 
