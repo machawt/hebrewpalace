@@ -20,7 +20,7 @@ return;
 
 else {
         up = up + 1;
-}
+
 myposition();
         document.getElementById("demo").innerHTML =
         "Height: " + up + "   Side: " + side + "<br>" + "Location: " + position + "<br>" + "Score: " + score;
@@ -35,7 +35,7 @@ return;
 
 else{
         side = side + 1;
-}
+
 myposition();
         document.getElementById("demo").innerHTML =
         "Height: " + up + "   Side: " + side + "<br>" + "Location: " + position + "<br>" + "Score: " + score;
@@ -48,7 +48,7 @@ if (side > worldsize){
 return;
 else{
         side = side - 1;
-}
+
 myposition();
         document.getElementById("demo").innerHTML =
          "Height: " + up + "   Side: " + side + "<br>" + "Location: " + position + "<br>" + "Score: " + score;
@@ -62,7 +62,7 @@ if (height > worldsize){
 return;
 else{
 height = height - 1;
-}
+
 myposition();
         document.getElementById("demo").innerHTML =
          "Height: " + up + "   Side: " + side + "<br>" + "Location: " + position + "<br>" + "Score: " + score;
@@ -175,148 +175,3 @@ image.src = "http://www.noonco.com/rc/java_art/cat_18.jpg";
 }
 
  
-
-//
-
-else if (south == 1 && west == 3){
-position = "Cat Freak Out!";
-image.src = "http://www.noonco.com/rc/java_art/cat_19.jpg";
-}
-else if (south == 1 && west == 2){
-position = "Cat Freak Out!";
-image.src = "http://www.noonco.com/rc/java_art/cat_20.jpg";
-}
-else if (south == 1 && west == 1){
-position = "Cat Freak Out!";
-image.src = "http://www.noonco.com/rc/java_art/cat_21.jpg";
-}
-else if (south == 1 && east == 1){
-position = "Cat Freak Out!";
-image.src = "http://www.noonco.com/rc/java_art/cat_22.jpg";
-}
-else if (south == 1 && east == 2){
-position = "Cat Freak Out!";
-image.src = "http://www.noonco.com/rc/java_art/cat_23.jpg";
-}
-else if (south == 1 && east == 3){
-position = "Cat Freak Out!";
-image.src = "http://www.noonco.com/rc/java_art/cat_24.jpg";
-}
-
-//
-
-else if (south == 2 && west == 3){
-position = "Cat Freak Out!";
-image.src = "http://www.noonco.com/rc/java_art/cat_25.jpg";
-}
-else if (south == 2 && west == 2){
-position = "Cat Freak Out!";
-image.src = "http://www.noonco.com/rc/java_art/cat_26.jpg";
-}
-else if (south == 2 && west == 1){
-position = "Cat Freak Out!";
-image.src = "http://www.noonco.com/rc/java_art/cat_27.jpg";
-}
-else if (south == 2 && east == 1){
-position = "Cat Freak Out!";
-image.src = "http://www.noonco.com/rc/java_art/cat_28.jpg";
-}
-
-else if (south == 2 && east == 2){
-position = "Cat Freak Out!";
-image.src = "http://www.noonco.com/rc/java_art/cat_29.jpg";
-}
-else if (south == 2 && east == 3){
-position = "Cat Freak Out!";
-image.src = "http://www.noonco.com/rc/java_art/cat_30.jpg";
-}
-
-//
-
-else if (south == 3 && west == 3){
-position = "Cat Freak Out!";
-image.src = "http://www.noonco.com/rc/java_art/cat_31.jpg";
-}
-else if (south == 3 && west == 2){
-position = "Cat Freak Out!";
- image.src = "http://www.noonco.com/rc/java_art/cat_32.jpg";
-}
-else if (south == 3 && west == 1){
-position = "Cat Freak Out!";
-image.src = "http://www.noonco.com/rc/java_art/cat_33.jpg";
-}
-else if (south == 3 && east == 1){
-position = "Cat Freak Out!";
-image.src = "http://www.noonco.com/rc/java_art/cat_34.jpg";
-}
-else if (south == 3 && east == 2){
-position = "Cat Freak Out!";
-image.src = "http://www.noonco.com/rc/java_art/cat_35.jpg";
-}
-else if (south == 3 && east == 3){
-position = "Cat Freak Out!";
-image.src = "http://www.noonco.com/rc/java_art/cat_36.jpg";
-}
-
-//
-
-else if (south == 0 && west == 3){
-position = "Cat Freak Out!";
-image.src = "http://www.noonco.com/rc/java_art/cat_37.jpg";
-}
-else if (south == 0 && west == 2){
-position = "Cat Freak Out!";
-image.src = "http://www.noonco.com/rc/java_art/cat_38.jpg";
-}
-else if (south == 0 && west == 1){
-position = "Cat Freak Out!";
-image.src = "http://www.noonco.com/rc/java_art/cat_39.jpg";
-}
-else if (south == 0 && east == 1){
-position = "Cat Freak Out!";
-image.src = "http://www.noonco.com/rc/java_art/cat_40.jpg";
-}
-else if (west == 0 && east == 2){
-position = "Cat Freak Out!";
-image.src = "http://www.noonco.com/rc/java_art/cat_41.jpg";
-}
-else if (west == 0 && east == 3){
-position = "Cat Freak Out!";
-image.src = "http://www.noonco.com/rc/java_art/cat_42.jpg";
-}
-
-//
-
-else if (west == 0 && north == 3){
-position = "Cat Freak Out!";
-image.src = "http://www.noonco.com/rc/java_art/cat_43.jpg";
-}
-else if (west == 0 && north == 2){
-position = "Cat Freak Out!";
- image.src = "http://www.noonco.com/rc/java_art/cat_44.jpg";
-}
-else if (west == 0 && north == 1){
-position = "Cat Freak Out!";
- image.src = "http://www.noonco.com/rc/java_art/cat_45.jpg";
-}
-else if (west == 0 && south == 1){
-position = "Cat Freak Out!";
-image.src = "http://www.noonco.com/rc/java_art/cat_46.jpg";
-}
-else if (west == 0 && south == 2){
-position = "Cat Freak Out!";
-image.src = "http://www.noonco.com/rc/java_art/cat_47.jpg";
-}
-else if (west == 0 && south == 3){
-position = "Cat Freak Out!";
- image.src = "http://www.noonco.com/rc/java_art/cat_48.jpg";
-}
-else if (west == 0 && north == 0 && east == 0 && south == 0){
-position = "Cat Freak Out!";
-    image.src = "http://www.noonco.com/rc/java_art/picture_doorway.jpg";
-}
-else{
-position = "lost";
-image.src = "http://www.noonco.com/rc/java_art/picture_field.jpg";
-}
-}
