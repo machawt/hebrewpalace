@@ -3,9 +3,7 @@
   <head>
     <link rel="stylesheet" type="text/css"href="file.css">
  /* <script src="file.js"></script>*/
-    <script>
-      function myposition(){document.getElementById("Heb").innerHTML="Height: " + up + "   Side: " + side + "<br>" + "Location: " + position + "<br>" + "Score: " + score;}
-    </script>
+    
   </head>
 <body>
 <p>&nbsp;&nbsp;<img id="myImage" onclick="changeImage()" src="http://www.noonco.com/rc/java_art/picture_doorway.jpg" width="200" height="150">
@@ -21,12 +19,14 @@
 </p>
 <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <button onclick="myFunction04()">Down</button>
-  <button onclick="myposition()">position</button>
+  <button onclick="pest()">position</button>
 </p>
 </ul>
   <p id="Heb">hebrew</p>
 <p id="demo">position</p>
-
+<script>
+      function pest(){document.getElementById("Heb").innerHTML="Height: " + up + "   Side: " + side + "<br>" + "Location: " + position + "<br>" + "Score: " + score;}
+    </script>
 
 </body>
 </html>
