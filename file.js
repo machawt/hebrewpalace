@@ -13,7 +13,7 @@ var two =["",""];
 
  function myposition(){document.getElementById("demo").innerHTML =
                       "Height: " + up + "   Side: " + side + "<br>" + "Location: " + position + "<br>" + "Score: " + score;}
-
+function correct () {alert("Very Clever, You are correct");}
 
 
 function myFunction01() {
