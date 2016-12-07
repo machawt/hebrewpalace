@@ -1,5 +1,5 @@
 var age=0
-function upz() {age=age-1;
+function upz() {age=age+1;
        		 document.getElementById("line2").innerHTML =
         	"Age " + age ;};
 
