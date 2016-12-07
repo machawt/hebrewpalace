@@ -15,15 +15,15 @@ var heb=[["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0
          ["y","ba","bb","bg","bd","bh","bv","bz","bx","bt","by","bk","bl","bm","bn","bs","bi","bp","bq","br","bc","bw"],
          ["k","ba","bb","bg","bd","bh","bv","bz","bx","bt","by","bk","bl","bm","bn","bs","bi","bp","bq","br","bc","bw"],
          ["l","ba","bb","bg","bd","bh","bv","bz","bx","bt","by","bk","bl","bm","bn","bs","bi","bp","bq","br","bc","bw"],
-         ["m","ba","bb","bg","bd","bh","bv","bz","bx","bt","by","bk","bl","bm","bn","bs","bi","bp","bq","br","bc","bw],
+         ["m","ba","bb","bg","bd","bh","bv","bz","bx","bt","by","bk","bl","bm","bn","bs","bi","bp","bq","br","bc","bw"],
          ["n","ba","bb","bg","bd","bh","bv","bz","bx","bt","by","bk","bl","bm","bn","bs","bi","bp","bq","br","bc","bw],
-         ["s","ba","bb","bg","bd","bh","bv","bz","bx","bt","by","bk","bl","bm","bn","bs","bi","bp","bq","br","bc","bw],
-         ["i","ba","bb","bg","bd","bh","bv","bz","bx","bt","by","bk","bl","bm","bn","bs","bi","bp","bq","br","bc","bw],
-         ["p","ba","bb","bg","bd","bh","bv","bz","bx","bt","by","bk","bl","bm","bn","bs","bi","bp","bq","br","bc","bw],
-         ["q","ba","bb","bg","bd","bh","bv","bz","bx","bt","by","bk","bl","bm","bn","bs","bi","bp","bq","br","bc","bw],
-         ["r","ba","bb","bg","bd","bh","bv","bz","bx","bt","by","bk","bl","bm","bn","bs","bi","bp","bq","br","bc","bw],
-         ["c","ba","bb","bg","bd","bh","bv","bz","bx","bt","by","bk","bl","bm","bn","bs","bi","bp","bq","br","bc","bw],
-         ["w","ba","bb","bg","bd","bh","bv","bz","bx","bt","by","bk","bl","bm","bn","bs","bi","bp","bq","br","bc","bw],
+         ["s","ba","bb","bg","bd","bh","bv","bz","bx","bt","by","bk","bl","bm","bn","bs","bi","bp","bq","br","bc","bw"],
+         ["i","ba","bb","bg","bd","bh","bv","bz","bx","bt","by","bk","bl","bm","bn","bs","bi","bp","bq","br","bc","bw"],
+         ["p","ba","bb","bg","bd","bh","bv","bz","bx","bt","by","bk","bl","bm","bn","bs","bi","bp","bq","br","bc","bw"],
+         ["q","ba","bb","bg","bd","bh","bv","bz","bx","bt","by","bk","bl","bm","bn","bs","bi","bp","bq","br","bc","bw"],
+         ["r","ba","bb","bg","bd","bh","bv","bz","bx","bt","by","bk","bl","bm","bn","bs","bi","bp","bq","br","bc","bw"],
+         ["c","ba","bb","bg","bd","bh","bv","bz","bx","bt","by","bk","bl","bm","bn","bs","bi","bp","bq","br","bc","bw"],
+         ["w","ba","bb","bg","bd","bh","bv","bz","bx","bt","by","bk","bl","bm","bn","bs","bi","bp","bq","br","bc","bw"],
          ];
 function upz() {up=up+1;
        		 document.getElementById("line2").innerHTML =
