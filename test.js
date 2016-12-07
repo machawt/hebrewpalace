@@ -7,7 +7,7 @@ function upz() {up=up+1;
        		 document.getElementById("line2").innerHTML =
         "First Letter" + up+"Second Letter"+side ;
                document.getElementById("line1").innerHTML =
-        "X" + row[up][side];
+        "X" + row[up],[side];
                };
 function downz() {up=up-1;
 document.getElementById("line1").innerHTML =
