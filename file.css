@@ -9,5 +9,10 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 30px;}
-#line1 {font-size: 40px;}
+#line1 {font-size: 40px;
+ border: solid;
+    color: maroon;
+    padding: 15px 32px;
+    margin:20px;
+    text-align: center;}
    
