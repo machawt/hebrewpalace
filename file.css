@@ -8,11 +8,17 @@ button {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 30px;}
+    font-size: 30px;};
 #line1 {font-size: 40px;
  border: solid;
     color: maroon;
     padding: 15px 32px;
     margin:20px;
-    text-align: center;}
+    text-align: center;};
+#line2 {font-size: 40px;
+ border: solid;
+    color: maroon;
+    padding: 15px 32px;
+    margin:20px;
+    text-align: center;};
    
