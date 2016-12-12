@@ -34,7 +34,7 @@ function upz() {up=up+1;
        		
                document.getElementById("show").innerHTML =
         " " + up+side;};
-               };
+           
 function downz() {up=up-1;
                    document.getElementById("show").innerHTML =
         " "" " + up+side;};
