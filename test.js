@@ -34,20 +34,20 @@ else {flag=0;document.getElementById("show").innerHTML = " " + heb[up][side];}};
 function upz() {up=up+1;
        		
                document.getElementById("show").innerHTML =
-        " " + heb[up][side];
+        " " + up+side;};
                };
 function downz() {up=up-1;
                    document.getElementById("show").innerHTML =
-        " " + heb[up][side];};
+        " "" " + up+side;};
 
 function leftz() {side=side-1;
                  
                      document.getElementById("show").innerHTML =
-        " " + heb[up][side];};
+     " " + up+side;};
 function rightz() {side=side+1;
        		 
                        document.getElementById("show").innerHTML =
-        " " + heb[up][side];};
+     " " + up+side;};
 
 
 
