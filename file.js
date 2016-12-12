@@ -1,163 +1,55 @@
 
-var up=0;
+var up=1;
+var side=1;
+var flag=1;
+//var heb1=["א"את","אשׁ","אר","אק","אפ","אע","אס", "אנ","אמ","אל", "אכ","אי","אט", "אח","אז","או", "אה","אד","אג", "אב","],["בת","בשׁ","בר","בק","בפ","בע","בס", "בנ","במ","בל", "בכ","בי","בט", "בח","בז","בו", "בה","בד","בג", "בב","בא"];
 
-var side=0;
-
-
-var score=0;
-
-var position = "Central Room";
-var worldsize=23;
-var one = ["","","״ ,"אבר אבס אבן אבל אבה אבד אבב];
-var two =["",""];
-
- function myposition(){document.getElementById("demo").innerHTML =
-                      "Height: " + up + "   Side: " + side + "<br>" + "Location: " + position + "<br>" + "Score: " + score;}
-function correct () {alert("Very Clever, You are correct");}
-
-
-function myFunction01() {
-if (up > worldsize){return;}else {up = up + 1;}}
-
-
- 
-
-function myFunction02() {if (side > worldsize){return;}
-else{side = side + 1;}}
-
-
-
-
-function myFunction03() {
-
-if (side > worldsize){
-return;
-else{
-        side = side - 1;
-
-myposition();
-        document.getElementById("demo").innerHTML =
-         "Height: " + up + "   Side: " + side + "<br>" + "Location: " + position + "<br>" + "Score: " + score;
-}
+var heb=[["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0"],
+         ["a","aa","אבב אבד","ag","ad","ah","av","az","ax","at","ay","ak","al","am","אנש","as","ai","ap","aq","ar","אשר","aw"],
+         ["b","ba","bb","bg","bd","bh","bv","bz","bx","bt","by","bk","bl","bm","bn","bs","bi","bp","bq","br","bc","bw"],
+         ["g","ga","gb","gg","gd","gh","gv","gz","gx","gt","gy","gk","gl","gm","gn","gs","gi","gp","gq","gr","gc","gw"],
+         ["d","da","db","dg","dd","dh","dv","dz","dx","dt","dy","dk","dl","dm","dn","ds","di","dp","dq","dr","dc","dw"],
+         ["h","ha","hb","hg","hd","hh","hv","hz","hx","ht","hy","hk","הלך","hm","hn","hs","hi","hp","hq","hr","hc","hw"],
+         ["v","va","vb","vg","vd","vh","vv","vz","vx","vt","vy","vk","vl","vm","vn","vs","vi","vp","vq","vr","vc","vw"],
+         ["z","za","zb","zg","zd","zh","zv","zz","zx","zt","zy","zk","zl","zm","zn","zs","zi","zp","zq","zr","zc","zw"],
+         ["x","xa","xb","xg","xd","xh","xv","xz","xx","xt","xy","xk","xl","xm","xn","xs","xi","xp","xq","xr","xc","xw"],
+         ["t","ba","bb","bg","bd","bh","bv","bz","bx","bt","by","bk","bl","bm","bn","bs","bi","bp","bq","br","bc","bw"],
+         ["y","a","bb","bg","bd","bh","bv","bz","bx","bt","by","bk","bl","bm","bn","bs","יעץ","bp","bq","br","bc","bw"],
+         ["k","ba","bb","bg","bd","bh","bv","bz","bx","bt","by","bk","bl","bm","bn","bs","bi","bp","bq","br","bc","bw"],
+         ["l","ba","bb","bg","bd","bh","bv","bz","bx","bt","by","bk","bl","bm","bn","bs","bi","bp","bq","br","bc","bw"],
+         ["m","ba","bb","bg","bd","bh","bv","bz","bx","bt","by","bk","bl","bm","bn","bs","bi","bp","bq","br","bc","bw"],
+         ["n","ba","bb","bg","bd","bh","bv","bz","bx","bt","by","bk","bl","bm","bn","bs","bi","bp","bq","br","bc","bw"],
+         ["s","ba","bb","bg","bd","bh","bv","bz","bx","bt","by","bk","bl","bm","bn","bs","bi","bp","bq","br","bc","bw"],
+         ["i","ba","bb","bg","bd","bh","bv","bz","bx","bt","by","bk","bl","bm","bn","bs","bi","bp","bq","br","bc","bw"],
+         ["p","ba","bb","bg","bd","bh","bv","bz","bx","bt","by","bk","bl","bm","bn","bs","bi","bp","bq","br","bc","bw"],
+         ["q","ba","bb","bg","bd","bh","bv","bz","bx","bt","by","bk","bl","bm","bn","bs","bi","bp","bq","br","bc","bw"],
+         ["r","ba","bb","bg","bd","bh","bv","bz","bx","bt","by","bk","bl","bm","bn","bs","bi","bp","bq","br","רשע","bw"],
+         ["c","ba","bb","bg","bd","bh","bv","bz","bx","bt","by","bk","bl","bm","bn","bs","bi","bp","bq","br","bc","bw"],
+         ["w","ba","bb","bg","bd","bh","bv","bz","bx","bt","by","bk","bl","bm","bn","bs","bi","bp","bq","br","bc","bw"],
+         ];
 
 
- 
+function shw() {flag=0;document.getElementById("show").innerHTML = " " + heb[up][side];};
 
-function myFunction04() {
-if (height > worldsize){
-return;
-else{
-height = height - 1;
+function upz() {up=up+1;
+       		
+               document.getElementById("show").innerHTML =
+        " " + up+side;};
+           
+function downz() {up=up-1;
+                   document.getElementById("show").innerHTML =
+        " " + up+side;};
 
-myposition();
-        document.getElementById("demo").innerHTML =
-         "Height: " + up + "   Side: " + side + "<br>" + "Location: " + position + "<br>" + "Score: " + score;
-}
+function leftz() {side=side-1;
+                 
+                     document.getElementById("show").innerHTML =
+     " " + up+side;};
+function rightz() {side=side+1;
+       		 
+                       document.getElementById("show").innerHTML =
+     " " + up+side;};
 
 
 
-function myposition() {
-var image = document.getElementById('myImage');
-
-troll = Math.floor((Math.random() * 25) + 1);
-if (troll == 11){
-position = "The Troll Wins!  Try Again!";
-score = 0;
-image.src = "http://www.noonco.com/rc/java_art/troll_01.jpg";
-return;
-}else{
-score = score + troll;}
-
-if (score >1000 && luck == 1){
-position = "You Win!  But, keep clicking if you want to press your luck!";
-luck = 2;
-image.src = "http://www.noonco.com/rc/java_art/win.jpg";
-return;}
 
 
-if (north == 3 && west == 3){
-position = "Cat Freak Out!";
-image.src = "http://www.noonco.com/rc/java_art/cat_01.jpg";
-}
-else if (north == 3 && west == 2){
-position = "Cat Freak Out!";
-image.src = "http://www.noonco.com/rc/java_art/cat_02.jpg";
-}
-else if (north == 3 && west == 1){
-position = "Cat Freak Out!";
-image.src = "http://www.noonco.com/rc/java_art/cat_03.jpg";
-}
-else if (north == 3 && east == 1){
-position = "Cat Freak Out!";
-image.src = "http://www.noonco.com/rc/java_art/cat_04.jpg";
-}
-
-else if (north == 3 && east == 2){
-position = "Cat Freak Out!";
-image.src = "http://www.noonco.com/rc/java_art/cat_05.jpg";
-}
-else if (north == 3 && east == 3){
-position = "Cat Freak Out!";
-image.src = "http://www.noonco.com/rc/java_art/cat_06.jpg";
-}
-
-//
-
-else if (north == 2 && west == 3){
-position = "Cat Freak Out!";
-image.src = "http://www.noonco.com/rc/java_art/cat_07.jpg";
-}
-else if (north == 2 && west == 2){
-position = "Cat Freak Out!";
-image.src = "http://www.noonco.com/rc/java_art/cat_08.jpg";
-}
-else if (north == 2 && west == 1){
-position = "Cat Freak Out!";
-image.src = "http://www.noonco.com/rc/java_art/cat_09.jpg";
-}
-else if (north == 2 && east == 1){
-position = "Cat Freak Out!";
- image.src = "http://www.noonco.com/rc/java_art/cat_10.jpg";
-}
-else if (north == 2 && east == 2){
-position = "Cat Freak Out!";
- image.src = "http://www.noonco.com/rc/java_art/cat_11.jpg";
-}
-else if (north == 2 && east == 3){
-position = "Cat Freak Out!";
-image.src = "http://www.noonco.com/rc/java_art/cat_12.jpg";
-}
-
- 
-
-//
-
-else if (north == 1 && west == 3){
-position = "Cat Freak Out!";
-image.src = "http://www.noonco.com/rc/java_art/cat_13.jpg";
-
-}
-
-else if (north == 1 && west == 2){
-position = "Cat Freak Out!";
-image.src = "http://www.noonco.com/rc/java_art/cat_14.jpg";
-}
-else if (north == 1 && west == 1){
-position = "Cat Freak Out!";
-image.src = "http://www.noonco.com/rc/java_art/cat_15.jpg";
-}
-else if (north == 1 && east == 1){
-position = "Cat Freak Out!";
-image.src = "http://www.noonco.com/rc/java_art/cat_16.jpg";
-}
-else if (north == 1 && east == 2){
-position = "Cat Freak Out!";
- image.src = "http://www.noonco.com/rc/java_art/cat_17.jpg";
-}
-
-else if (north == 1 && east == 3){
-position = "Cat Freak Out!";
-image.src = "http://www.noonco.com/rc/java_art/cat_18.jpg";
-}
-
-  
