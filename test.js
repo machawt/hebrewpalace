@@ -30,25 +30,20 @@ var heb=[["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0
 function shw() {document.getElementById("show").innerHTML = " " + heb[up][side];};
 
 function upz() {up=up+1;
-       		 document.getElementById("line2").innerHTML =
-        "First Letter" + up+"Second Letter"+side ;
+       		
                document.getElementById("line1").innerHTML =
         " " + heb[up][side];
                };
 function downz() {up=up-1;
-document.getElementById("line2").innerHTML =
-              "First Letter" + up+"Second Letter"+side; 
                    document.getElementById("line1").innerHTML =
         " " + heb[up][side];};
 
 function leftz() {side=side-1;
-                  document.getElementById("line2").innerHTML =
-        "First Letter" + up+"Second Letter"+side ;
+                 
                      document.getElementById("line1").innerHTML =
         " " + heb[up][side];};
 function rightz() {side=side+1;
-       		 document.getElementById("line2").innerHTML =
-        "First Letter" + up+"Second Letter"+side ;
+       		 
                        document.getElementById("line1").innerHTML =
         " " + heb[up][side];};
 
