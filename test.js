@@ -25,6 +25,13 @@ var heb=[["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0
          ["c","ba","bb","bg","bd","bh","bv","bz","bx","bt","by","bk","bl","bm","bn","bs","bi","bp","bq","br","bc","bw"],
          ["w","ba","bb","bg","bd","bh","bv","bz","bx","bt","by","bk","bl","bm","bn","bs","bi","bp","bq","br","bc","bw"],
          ];
+
+
+function shw() {up=up+1;
+               document.getElementById("show").innerHTML =
+        " " + heb[up][side];
+
+
 function upz() {up=up+1;
        		 document.getElementById("line2").innerHTML =
         "First Letter" + up+"Second Letter"+side ;
