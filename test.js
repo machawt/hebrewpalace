@@ -28,8 +28,8 @@ var heb=[["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0
          ];
 
 
-function shw() if  (flag==0) {flag=1;return} 
-else {flag=0;document.getElementById("show").innerHTML = " " + heb[up][side];};
+function shw() {if  (flag==0) {flag=1;return} 
+else {flag=0;document.getElementById("show").innerHTML = " " + heb[up][side];}};
 
 function upz() {up=up+1;
        		
