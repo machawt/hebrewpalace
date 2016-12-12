@@ -27,10 +27,7 @@ var heb=[["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0
          ];
 
 
-function shw() {up=up+1;
-               document.getElementById("show").innerHTML =
-        " " + heb[up][side];
-
+function shw() {document.getElementById("show").innerHTML = " " + heb[up][side];};
 
 function upz() {up=up+1;
        		 document.getElementById("line2").innerHTML =
