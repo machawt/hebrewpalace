@@ -81,20 +81,20 @@ function shweng() {document.getElementById("show").innerHTML = " " + eng[up][sid
 function upz() {up=up+1;
     		
                document.getElementById("show").innerHTML =
-        " " + up+" "+side+" "+parseInt(num[up][side]);};
+        " . " + up+" . "+side+" "+parseInt(num[up][side]);};
            
 function downz() {up=up-1;
                    document.getElementById("show").innerHTML =
-       " " + up+" "+side+" "+parseInt(num[up][side]);};
+       " . " + up+" . "+side+" "+parseInt(num[up][side]);};
 
 function leftz() {side=side-1;
                  
                      document.getElementById("show").innerHTML =
- " " + up+" "+side+" "+parseInt(num[up][side]);};
+ " " + up+" .  "+side+" "+parseInt(num[up][side]);};
 function rightz() {side=side+1;
        		 
                        document.getElementById("show").innerHTML =
-     " " + up+" "+side+" "+parseInt(num[up][side]);};
+     " " + up+" . "+side+". "+parseInt(num[up][side]);};
 
 
 
