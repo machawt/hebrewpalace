@@ -37,7 +37,7 @@ function upz() {up=up+1;
            
 function downz() {up=up-1;
                    document.getElementById("show").innerHTML =
-        " "" " + up+side;};
+        " " + up+side;};
 
 function leftz() {side=side-1;
                  
