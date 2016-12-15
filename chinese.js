@@ -177,7 +177,7 @@ var chin4=[["0","a","ai","ao","an","ang","e","er","ei","en","eng","ong","i","ia"
 ["b","ba","ai","ao","an","ang","e","er","ei","en","eng","ong","i","ia","iao","ie","iu","ian","iang","ing","iong","u","ua","uo","uai","ui","un","uan","uang","un","ueng"],
 ["p","pa","ai","ao","an","ang","e","er","ei","en","eng","ong","i","ia","iao","ie","iu","ian","iang","ing","iong","u","ua","uo","uai","ui","un","uan","uang","un","ueng"],
 ["m","a","ai","ao","an","ang","e","er","ei","en","eng","ong","i","ia","iao","ie","iu","ian","iang","ing","iong","u","ua","uo","uai","ui","un","uan","uang","un","ueng"],
-["f","a","ai","ao","an","ang","e","er","ei","en","eng","ong","i","ia","iao","ie","iu","ian","iang","ing","iong","u","ua","uo","uai","ui","un","uan","uang","un","ueng"],
+["f","a","ai","ao","an","ang","e","er","吠","en","eng","ong","i","ia","iao","ie","iu","ian","iang","ing","iong","u","ua","uo","uai","ui","un","uan","uang","un","ueng"],
 ["d","大","ai","ao","an","ang","e","er","ei","en","eng","ong","i","ia","iao","ie","iu","ian","iang","ing","iong","u","ua","uo","uai","ui","un","uan","uang","un","ueng"],
 ["t","a","太","ao","an","ang","e","er","ei","en","eng","ong","i","ia","iao","ie","iu","ian","iang","ing","iong","u","ua","uo","uai","ui","un","uan","uang","un","ueng"],
 ["n","a","ai","ao","an","ang","e","er","ei","en","eng","ong","i","ia","iao","ie","iu","ian","iang","ing","iong","u","ua","uo","uai","ui","un","uan","uang","un","ueng"],
@@ -201,7 +201,7 @@ var eng4=[["0","a","ai","ao","an","ang","e","er","ei","en","eng","ong","i","ia",
 ["b","ba","ai","ao","an","ang","e","er","ei","en","eng","ong","i","ia","iao","ie","iu","ian","iang","ing","iong","u","ua","uo","uai","ui","un","uan","uang","un","ueng"],
 ["p","pa","ai","ao","an","ang","e","er","ei","en","eng","ong","i","ia","iao","ie","iu","ian","iang","ing","iong","u","ua","uo","uai","ui","un","uan","uang","un","ueng"],
 ["m","a","ai","ao","an","ang","e","er","ei","en","eng","ong","i","ia","iao","ie","iu","ian","iang","ing","iong","u","ua","uo","uai","ui","un","uan","uang","un","ueng"],
-["f","a","ai","ao","an","ang","e","er","ei","en","eng","ong","i","ia","iao","ie","iu","ian","iang","ing","iong","u","ua","uo","uai","ui","un","uan","uang","un","ueng"],
+["f","a","ai","ao","an","ang","e","er","bark ","en","eng","ong","i","ia","iao","ie","iu","ian","iang","ing","iong","u","ua","uo","uai","ui","un","uan","uang","un","ueng"],
 ["d","big","ai","ao","an","ang","e","er","ei","en","eng","ong","i","ia","iao","ie","iu","ian","iang","ing","iong","u","ua","uo","uai","ui","un","uan","uang","un","ueng"],
 ["t","a","very","ao","an","ang","e","er","ei","en","eng","ong","i","ia","iao","ie","iu","ian","iang","ing","iong","u","ua","uo","uai","ui","un","uan","uang","un","ueng"],
 ["n","a","ai","ao","an","ang","e","er","ei","en","eng","ong","i","ia","iao","ie","iu","ian","iang","ing","iong","u","ua","uo","uai","ui","un","uan","uang","un","ueng"],
@@ -221,27 +221,54 @@ var eng4=[["0","a","ai","ao","an","ang","e","er","ei","en","eng","ong","i","ia",
 ["x","a","ai","ao","an","ang","e","er","ei","en","eng","众","i","ia","iao","ie","iu","ian","iang","ing","iong","u","ua","uo","uai","ui","un","uan","uang","un","ueng"],
 ];
  
-function shw() {flag=0;document.getElementById("show").innerHTML = " " + chin[up][side];};
+function shweng() {if (flag===0) {flag=1} else {flag=0};
 
-function upz() {up=up+1;
-       		
-               document.getElementById("show").innerHTML =
-        " " + up+side;};
+function upz() {up=up+1;document.getElementById("show").innerHTML = " " + chin[up][side];
+               if (flag===1) {document.getElementById("s1").innerHTML = " " + eng1[up][side];
+                            document.getElementById("s2").innerHTML = " " + eng2[up][side];
+                            document.getElementById("s3").innerHTML = " " + eng3[up][side];
+                            document.getElementById("s4").innerHTML = " " + eng4[up][side];}
+                else
+                           {document.getElementById("s1").innerHTML = " " + chin1[up][side];
+                            document.getElementById("s2").innerHTML = " " + chin2[up][side];
+                            document.getElementById("s3").innerHTML = " " + chin3[up][side];
+                            document.getElementById("s4").innerHTML = " " + chin4[up][side];}
+
+                           };
+       		function downz() {up=up-1;document.getElementById("show").innerHTML = " " + chin[up][side];
+               if (flag===1) {document.getElementById("s1").innerHTML = " " + eng1[up][side];
+                            document.getElementById("s2").innerHTML = " " + eng2[up][side];
+                            document.getElementById("s3").innerHTML = " " + eng3[up][side];
+                            document.getElementById("s4").innerHTML = " " + eng4[up][side];}
+                else
+                           {document.getElementById("s1").innerHTML = " " + chin1[up][side];
+                            document.getElementById("s2").innerHTML = " " + chin2[up][side];
+                            document.getElementById("s3").innerHTML = " " + chin3[up][side];
+                            document.getElementById("s4").innerHTML = " " + chin4[up][side];}
+                          };
+
+function leftz() {side=side+1;document.getElementById("show").innerHTML = " " + chin[up][side];
+               if (flag===1) {document.getElementById("s1").innerHTML = " " + eng1[up][side];
+                            document.getElementById("s2").innerHTML = " " + eng2[up][side];
+                            document.getElementById("s3").innerHTML = " " + eng3[up][side];
+                            document.getElementById("s4").innerHTML = " " + eng4[up][side];}
+                else
+                           {document.getElementById("s1").innerHTML = " " + chin1[up][side];
+                            document.getElementById("s2").innerHTML = " " + chin2[up][side];
+                            document.getElementById("s3").innerHTML = " " + chin3[up][side];
+                            document.getElementById("s4").innerHTML = " " + chin4[up][side];}
+
+                           };                          
+function rightz() {side=side+1;document.getElementById("show").innerHTML = " " + chin[up][side];
+               if (flag===1) {document.getElementById("s1").innerHTML = " " + eng1[up][side];
+                            document.getElementById("s2").innerHTML = " " + eng2[up][side];
+                            document.getElementById("s3").innerHTML = " " + eng3[up][side];
+                            document.getElementById("s4").innerHTML = " " + eng4[up][side];}
+                else
+                           {document.getElementById("s1").innerHTML = " " + chin1[up][side];
+                            document.getElementById("s2").innerHTML = " " + chin2[up][side];
+                            document.getElementById("s3").innerHTML = " " + chin3[up][side];
+                            document.getElementById("s4").innerHTML = " " + chin4[up][side];}
+                           };
+                  
            
-function downz() {up=up-1;
-                   document.getElementById("show").innerHTML =
-        " " + up+side;};
-
-function leftz() {side=side-1;
-                 
-                     document.getElementById("show").innerHTML =
-     " " + up+side;};
-function rightz() {side=side+1;
-       		 
-                       document.getElementById("show").innerHTML =
-     " " + up+side;};
-
-
-
-
-
