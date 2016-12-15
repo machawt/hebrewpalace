@@ -269,6 +269,4 @@ function rightz() {side=side+1;document.getElementById("show").innerHTML = " " +
                             document.getElementById("s2").innerHTML = " " + chin2[up][side];
                             document.getElementById("s3").innerHTML = " " + chin3[up][side];
                             document.getElementById("s4").innerHTML = " " + chin4[up][side];}
-                           };
-                  
-           
+                           }
