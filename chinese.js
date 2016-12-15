@@ -223,6 +223,7 @@ var eng4=[["0","a","ai","ao","an","ang","e","er","ei","en","eng","ong","i","ia",
 ];
  
 function shweng() {if (flag===0) {flag=1} else {flag=0};};
+function shw() {document.getElementById("show").innerHTML = " " + chin[up][side];};
 
 function upz() {up=up+1;document.getElementById("show").innerHTML = " " + chin[up][side];
                if (flag===1) {document.getElementById("s1").innerHTML = " " + eng1[up][side];
