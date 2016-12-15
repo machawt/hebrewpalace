@@ -222,7 +222,7 @@ var eng4=[["0","a","ai","ao","an","ang","e","er","ei","en","eng","ong","i","ia",
 ["x","a","ai","ao","an","ang","e","er","ei","en","eng","众","i","ia","iao","ie","iu","ian","iang","ing","iong","u","ua","uo","uai","ui","un","uan","uang","un","ueng"],
 ];
  
-function shweng() {if (flag===0) {flag=1} else {flag=0};};
+function shweng() {if (flag===1) {flag=0} else {flag=1};};
 function shw() {document.getElementById("show").innerHTML = " " + chin[up][side];};
 
 function upz() {up=up+1;document.getElementById("show").innerHTML = " " + chin[up][side];
