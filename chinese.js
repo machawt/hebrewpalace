@@ -230,7 +230,7 @@ function upz() {up=up+1;document.getElementById("show").innerHTML = " " + chin[u
                             document.getElementById("s3").innerHTML = " " + eng3[up][side];
                             document.getElementById("s4").innerHTML = " " + eng4[up][side];}
                 else
-                           {document.getElementById("s1").innerHTML = " " + chin1[up][side];
+                           {document.getElementById("s1").innerHTML = chin1[up][side];
                             document.getElementById("s2").innerHTML = " " + chin2[up][side];
                             document.getElementById("s3").innerHTML = " " + chin3[up][side];
                             document.getElementById("s4").innerHTML = " " + chin4[up][side];}
