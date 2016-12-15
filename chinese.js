@@ -257,7 +257,6 @@ function leftz() {side=side+1;document.getElementById("show").innerHTML = " " + 
                             document.getElementById("s2").innerHTML = " " + chin2[up][side];
                             document.getElementById("s3").innerHTML = " " + chin3[up][side];
                             document.getElementById("s4").innerHTML = " " + chin4[up][side];}
-
                            };                          
 function rightz() {side=side+1;document.getElementById("show").innerHTML = " " + chin[up][side];
                if (flag===1) {document.getElementById("s1").innerHTML = " " + eng1[up][side];
@@ -269,4 +268,4 @@ function rightz() {side=side+1;document.getElementById("show").innerHTML = " " +
                             document.getElementById("s2").innerHTML = " " + chin2[up][side];
                             document.getElementById("s3").innerHTML = " " + chin3[up][side];
                             document.getElementById("s4").innerHTML = " " + chin4[up][side];}
-                           }
+                           };
