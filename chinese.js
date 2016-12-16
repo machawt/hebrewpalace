@@ -222,52 +222,34 @@ var eng4=[["0","a","ai","ao","an","ang","e","er","ei","en","eng","ong","i","ia",
 ["x","a","ai","ao","an","ang","e","er","ei","en","eng","众","i","ia","iao","ie","iu","ian","iang","ing","iong","u","ua","uo","uai","ui","un","uan","uang","un","ueng"],
 ];
  
-function shweng() {if (flag===1) {flag=0} else {flag=1};};
+
+function shw1() {document.getElementById("s1").innerHTML = " " + chin1[up][side];};
+function shw2() {document.getElementById("s2").innerHTML = " " + chin2[up][side];};
+function shw3() {document.getElementById("s3").innerHTML = " " + chin3[up][side];};
+function shw4() {document.getElementById("s4").innerHTML = " " + chin4[up][side];};
 function shw() {document.getElementById("show").innerHTML = " " + chin[up][side];};
 
 function upz() {up=up+1;document.getElementById("show").innerHTML = " " + chin[up][side];
-               if (flag===1) {document.getElementById("s1").innerHTML = " " + eng1[up][side];
+                            document.getElementById("s1").innerHTML = " " + eng1[up][side];
                             document.getElementById("s2").innerHTML = " " + eng2[up][side];
                             document.getElementById("s3").innerHTML = " " + eng3[up][side];
                             document.getElementById("s4").innerHTML = " " + eng4[up][side];}
-                else
-                           {document.getElementById("s1").innerHTML = chin1[up][side];
-                            document.getElementById("s2").innerHTML = " " + chin2[up][side];
-                            document.getElementById("s3").innerHTML = " " + chin3[up][side];
-                            document.getElementById("s4").innerHTML = " " + chin4[up][side];}
-
-                           };
+              
        		function downz() {up=up-1;document.getElementById("show").innerHTML = " " + chin[up][side];
-               if (flag===1) {document.getElementById("s1").innerHTML = " " + eng1[up][side];
+                document.getElementById("s1").innerHTML = " " + eng1[up][side];
                             document.getElementById("s2").innerHTML = " " + eng2[up][side];
                             document.getElementById("s3").innerHTML = " " + eng3[up][side];
                             document.getElementById("s4").innerHTML = " " + eng4[up][side];}
-                else
-                           {document.getElementById("s1").innerHTML = " " + chin1[up][side];
-                            document.getElementById("s2").innerHTML = " " + chin2[up][side];
-                            document.getElementById("s3").innerHTML = " " + chin3[up][side];
-                            document.getElementById("s4").innerHTML = " " + chin4[up][side];}
-                          };
-
+               
 function leftz() {side=side+1;document.getElementById("show").innerHTML = " " + chin[up][side];
-               if (flag===1) {document.getElementById("s1").innerHTML = " " + eng1[up][side];
+                         document.getElementById("s1").innerHTML = " " + eng1[up][side];
                             document.getElementById("s2").innerHTML = " " + eng2[up][side];
                             document.getElementById("s3").innerHTML = " " + eng3[up][side];
-                            document.getElementById("s4").innerHTML = " " + eng4[up][side];}
-                else
-                           {document.getElementById("s1").innerHTML = " " + chin1[up][side];
-                            document.getElementById("s2").innerHTML = " " + chin2[up][side];
-                            document.getElementById("s3").innerHTML = " " + chin3[up][side];
-                            document.getElementById("s4").innerHTML = " " + chin4[up][side];}
-                           };                          
+                             document.getElementById("s4").innerHTML = " " + eng4[up][side];}
+             
 function rightz() {side=side+1;document.getElementById("show").innerHTML = " " + chin[up][side];
-               if (flag===1) {document.getElementById("s1").innerHTML = " " + eng1[up][side];
+                            document.getElementById("s1").innerHTML = " " + eng1[up][side];
                             document.getElementById("s2").innerHTML = " " + eng2[up][side];
                             document.getElementById("s3").innerHTML = " " + eng3[up][side];
                             document.getElementById("s4").innerHTML = " " + eng4[up][side];}
-                else
-                           {document.getElementById("s1").innerHTML = " " + chin1[up][side];
-                            document.getElementById("s2").innerHTML = " " + chin2[up][side];
-                            document.getElementById("s3").innerHTML = " " + chin3[up][side];
-                            document.getElementById("s4").innerHTML = " " + chin4[up][side];}
-                           };
+                
