@@ -6,10 +6,10 @@ body{background-color:aqua;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 40px;
+    font-size: 300%;
 }
-div{
- width:500px;
+div{background-color:red;
+ width:800px;
     height:auto;
     margin-left:auto;
     margin-right:auto;};
