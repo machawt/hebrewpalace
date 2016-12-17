@@ -1,7 +1,8 @@
 body{background-color:aqua;
  }
 
-div{background-color:blue;
+div{float:right;
+ background-color:blue;
  width:200px;
     height:auto;
     margin-left:auto;
@@ -9,14 +10,11 @@ div{background-color:blue;
 h1 {text-align:center;
  font-size:50px;
  color:white;
- 
 }
-h2 {text-align:center;
- margin:20px;
+h2 {margin:20px;
  display:inline;
+ text-align:center;
  font-size:30px;
- 
  color:white;
- 
 }
  
