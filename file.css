@@ -1,4 +1,13 @@
-body{background-color:white;}
+body{background-color:aqua;
+ border: none;
+    color: white;
+    padding: 10px 10px;
+    margin:50%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+}
 div{
  width:500px;
     height:auto;
@@ -7,14 +16,7 @@ div{
     
 .button {
     background-color: #00FF00; /* Green */
-    border: none;
-    color: white;
-    padding: 10px 10px;
-    margin:50%;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 40px;};
+    };
 #show {font-size: 60px;
  border: solid;
     color: maroon;
