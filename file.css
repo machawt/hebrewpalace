@@ -9,7 +9,7 @@ body{background-color:aqua;
     font-size: 300%;
 }
 div{background-color:red;
-   font-size: 300%
+   font-size: 300%;
  width:800px;
     height:auto;
     margin-left:auto;
@@ -17,6 +17,7 @@ div{background-color:red;
     
 .button {
     background-color: #00FF00; /* Green */
+   font-size: 50px;
     };
 #show {font-size: 60px;
  border: solid;
