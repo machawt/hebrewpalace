@@ -1,11 +1,11 @@
 body{background-color:aqua;}
-#wrapper {
+div{
  width:auto;
     height:auto;
     margin-left:auto;
     margin-right:auto;};
     
-button {
+.button {
     background-color: #0000FF; /* Green */
     border: none;
     color: white;
