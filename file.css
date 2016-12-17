@@ -7,6 +7,10 @@ div{background-color:blue;
     margin-left:auto;
     margin-right:auto;}
 h1 {text-align:center;
+ font-size:50px;
  color:white;
  }
+h2 {display:inline;
+ font-size:50px;
+}
  
