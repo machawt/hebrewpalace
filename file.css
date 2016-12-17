@@ -11,7 +11,7 @@ h1 {text-align:center;
  color:white;
 }
 h2 {margin:20px;
- display:inline;
+ display:inline-block;
  text-align:center;
  font-size:30px;
  color:red;
