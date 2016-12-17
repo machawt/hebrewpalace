@@ -1,11 +1,11 @@
 body{background-color:aqua;
  }
-.button{font-size:500%}
+
 div{background-color:blue;
  width:200px;
     height:200px;
     margin-left:auto;
     margin-right:auto;}
-.button {margin-left:auto;
+button {margin-left:auto;
  margin-right:auto}
  
