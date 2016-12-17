@@ -1,12 +1,12 @@
-body{background-color:aqua;}
+body{background-color:white;}
 div{
- width:auto;
+ width:500px;
     height:auto;
     margin-left:auto;
     margin-right:auto;};
     
 .button {
-    background-color: #0000FF; /* Green */
+    background-color: #00FF00; /* Green */
     border: none;
     color: white;
     padding: 10px 10px;
