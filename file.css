@@ -1,27 +1,11 @@
 body{background-color:aqua;
- border: none;
-    color: white;
-    padding: 10px 10px;
-    margin:5%;
-    text-align: center;
-
-    
-    font-size: 300%;
-};
+ };
 div{background-color:blue;
-   font-size: 50px;
- width:400px;
-    height:400px;
+ width:200px;
+    height:200px;
     margin-left:auto;
     margin-right:auto;};
     
 .button {
-    background-color: #00FF00; /* Green */
    font-size: 50px;
     };
-#show {font-size: 60px;
- border: solid;
-    color: maroon;
-    padding: 15px 32px;
-    margin:20px;
-    text-align: center;};
