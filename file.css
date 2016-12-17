@@ -1,8 +1,7 @@
 body{background-color:aqua;
  }
 
-div{float:right;
- background-color:blue;
+div {background-color:blue;
  width:200px;
     height:auto;
     margin-left:auto;
