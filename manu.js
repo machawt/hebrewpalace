@@ -9,9 +9,9 @@ var pic=[["https://i.ytimg.com/vi/ACj0tJci4-M/maxresdefault.jpg","https://s-medi
 
 
 
-function upz() {up=up+1;If (up===3){up=2;return}
+function upz() {up=up+1;
        		
-               else{document.getElementById("poke").src = pic[up][side];}};
+               document.getElementById("poke").src = pic[up][side];};
            
 function downz() {up=up-1;
                   document.getElementById("poke").src = pic[up][side];};
