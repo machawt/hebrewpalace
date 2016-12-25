@@ -7,8 +7,8 @@ var pic=[
           ["","","",""],
          
           ["",
-           "https://i.ytimg.com/vi/ACj0tJci4-M/maxresdefault.jpg",
-          "https://s-media-cache-ak0.pinimg.com/originals/bb/3c/30/bb3c302eeedb407e2ba364332745ff03.png",
+           "http://www.picgifs.com/clip-art/cartoons/pokemon/clip-art-pokemon-029964.jpg",
+          "http://www.picgifs.com/clip-art/cartoons/pokemon/clip-art-pokemon-441770.jpg",
           "https://i.ytimg.com/vi/ACj0tJci4-M/maxresdefault.jpg",
           "http://pre10.deviantart.net/4b63/th/pre/i/2015/191/9/8/mega_dragonite_by_lucas_costa-d90qupd.png"],
          
@@ -33,8 +33,8 @@ var nom=[
           ["","","",""],
          
           ["",
-           "Mega victini",
-          "mega dunsparce",
+           "Articuno",
+          "Haunter",
           "me quagsire",
           "mega dragonite"],
          
@@ -59,16 +59,21 @@ var nom=[
 function upz() {up=up+1;if (up>4){up=4};
        		
                document.getElementById("poke").src = pic[up][side];
-               document.getElementById("show").innerHTML=up+ " " +side};
+                  document.getElementById("pokename").innerHTML=nom[up][side];
+             
+                 document.getElementById("show").innerHTML=up+ " " +side;};
 
            
 function downz() {up=up-1;if (up<1){up=1};
                   document.getElementById("poke").src = pic[up][side];
+                   document.getElementById("pokename").innerHTML=nom[up][side];
  document.getElementById("show").innerHTML=up+ " " +side};
 function leftz() {side=side-1;if (side<1){side=1};
+                   document.getElementById("pokename").innerHTML=nom[up][side];
                  document.getElementById("poke").src = pic[up][side];
  document.getElementById("show").innerHTML=up+ " " +side};
 function rightz() {side=side+1;if (side>4){side=4};
        		 
                        document.getElementById("poke").src = pic[up][side];
+                    document.getElementById("pokename").innerHTML=nom[up][side];
  document.getElementById("show").innerHTML=up+ " " +side;};
