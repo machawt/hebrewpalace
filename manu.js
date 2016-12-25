@@ -13,7 +13,7 @@ var pic=[
           "http://www.picgifs.com/clip-art/cartoons/pokemon/clip-art-pokemon-724612.jpg"],
          
          ["",
-          "http://static.pokemonpets.com/images/monsters-images-300-300/8147-Mega-Dragonite-Blade.png",
+          "http://www.picgifs.com/clip-art/cartoons/pokemon/clip-art-pokemon-781223.jpg",
           "http://orig00.deviantart.net/8b4d/f/2014/230/a/a/mega_ursaring__fan_made__by_pokeluka-d6jhu4h.png",
           "http://img11.deviantart.net/4b68/i/2014/237/8/0/mega_shuckle_by_theangryaron-d7wlnig.png",
           "http://img09.deviantart.net/a799/i/2015/165/4/4/mega_primal_giratina_by_hyshirey-d8x9zlp.png"],
@@ -39,8 +39,8 @@ var nom=[
           "ditto"],
          
          ["",
-          "http://static.pokemonpets.com/images/monsters-images-300-300/8147-Mega-Dragonite-Blade.png",
-          "http://orig00.deviantart.net/8b4d/f/2014/230/a/a/mega_ursaring__fan_made__by_pokeluka-d6jhu4h.png",
+          "gengar",
+          "",
           "http://img11.deviantart.net/4b68/i/2014/237/8/0/mega_shuckle_by_theangryaron-d7wlnig.png",
           "http://img09.deviantart.net/a799/i/2015/165/4/4/mega_primal_giratina_by_hyshirey-d8x9zlp.png"],
          
