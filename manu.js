@@ -20,8 +20,8 @@ function downz() {up=up-1;if (up<1){up=1};
  document.getElementById("show").innerHTML=up+ " " +side};
 function leftz() {side=side-1;if (side<1){side=1};
                  document.getElementById("poke").src = pic[up][side];
- document.getElementById("show").innerHTML=up+ " " +side;
+ document.getElementById("show").innerHTML=up+ " " +side};
 function rightz() {side=side+1;if (side>4){side=4};
        		 
                        document.getElementById("poke").src = pic[up][side];
- document.getElementById("show").innerHTML=up+ " " +side;}
+ document.getElementById("show").innerHTML=up+ " " +side;};
