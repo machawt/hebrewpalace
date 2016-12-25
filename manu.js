@@ -9,20 +9,20 @@ var pic=[["https://i.ytimg.com/vi/ACj0tJci4-M/maxresdefault.jpg","https://s-medi
 ["http://orig05.deviantart.net/9921/f/2014/238/0/d/mega_azelf_by_phatmon66-d7wqk0h.png","http://pre03.deviantart.net/daf8/th/pre/f/2014/238/f/a/mega_mesprit_by_phatmon66-d7wqmg6.png","http://pre11.deviantart.net/3a9c/th/pre/f/2014/238/1/5/mega_uxie_by_phatmon66-d7wqlny.png","http://pre14.deviantart.net/cc5e/th/pre/i/2013/279/6/5/mega_darkrai_by_hyshirey-d6pgh1g.png"],];
 
 
-function upz() {up=up+1;if (up>4){up=4};
+function upz() {up=up+1;if (up>4){up=4};else{
        		
                document.getElementById("poke").src = pic[up][side];};
-               document.getElementById("show").innerHTML=up+ " " +side;};
+               document.getElementById("show").innerHTML=up+ " " +side;}};
 
            
-function downz() {up=up-1;if (up<1){up=1};
+function downz() {up=up-1;if (up<1){up=1};else{
                   document.getElementById("poke").src = pic[up][side];};
- document.getElementById("show").innerHTML=up+ " " +side;};
+ document.getElementById("show").innerHTML=up+ " " +side;}};
 function leftz() {side=side-1;if (side<1){side=1};
-                 
+                 else{
                    document.getElementById("poke").src = pic[up][side];};
- document.getElementById("show").innerHTML=up+ " " +side;};
-function rightz() {side=side+1;if (side>4){side=4};
+ document.getElementById("show").innerHTML=up+ " " +side;}};
+function rightz() {side=side+1;if (side>4){side=4};else{
        		 
                        document.getElementById("poke").src = pic[up][side];};
- document.getElementById("show").innerHTML=up+ " " +side;};
+ document.getElementById("show").innerHTML=up+ " " +side;}};
