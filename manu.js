@@ -9,8 +9,8 @@ var pic=[
           ["",
            "http://www.picgifs.com/clip-art/cartoons/pokemon/clip-art-pokemon-029964.jpg",
           "http://www.picgifs.com/clip-art/cartoons/pokemon/clip-art-pokemon-441770.jpg",
-          "https://i.ytimg.com/vi/ACj0tJci4-M/maxresdefault.jpg",
-          "http://pre10.deviantart.net/4b63/th/pre/i/2015/191/9/8/mega_dragonite_by_lucas_costa-d90qupd.png"],
+          "http://www.picgifs.com/clip-art/cartoons/pokemon/clip-art-pokemon-801212.jpg",
+          "http://www.picgifs.com/clip-art/cartoons/pokemon/clip-art-pokemon-724612.jpg"],
          
          ["",
           "http://static.pokemonpets.com/images/monsters-images-300-300/8147-Mega-Dragonite-Blade.png",
@@ -35,8 +35,8 @@ var nom=[
           ["",
            "Articuno",
           "Haunter",
-          "me quagsire",
-          "mega dragonite"],
+          "mewtwo",
+          "ditto"],
          
          ["",
           "http://static.pokemonpets.com/images/monsters-images-300-300/8147-Mega-Dragonite-Blade.png",
